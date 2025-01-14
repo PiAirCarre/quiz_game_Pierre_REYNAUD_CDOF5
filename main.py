@@ -41,7 +41,7 @@ def quiz_game():
             score += 1
         else:
             print(f"Wrong! The correct answer was {q['answer']}.")
-
+        print(f"\nYou got {score}/{i} questions correct.")
     print(f"\nYou got {score}/{len(questions)} questions correct.")
     print("Thanks for playing!")
 
