@@ -45,5 +45,5 @@ def quiz_game():
     print(f"\nYou got {score}/{len(questions)} questions correct.")
     print("Thanks for playing!")
 
-if __name__ == "__main__":
+if __name__ == "__main__"
     quiz_game()
